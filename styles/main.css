@@ -1,0 +1,65 @@
+
+body {
+  color: #BC5AB3;
+  font-family: 'Play', sans-serif;
+}
+
+#bkRnd{
+
+}
+
+/*create a wrapper for the text and define a background color. text-shadow and border raidus applied  */
+#mainMenu{
+  width: auto;
+  height: 35px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*remove default padding*/
+#mainMenu ul{
+  height:auto;
+  padding: 8px 0px;
+  margin: opx;
+}
+
+/*change position of the text so that it fits into the menu and runs horizontally (inline). also adds padding to the text for the horizontal positionaing */
+#mainMenu li{
+  display: inline;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/*remove the text underline and change the color of the text to something remeniscent of the underline color. Also padding uniform in all areas to contorl poistion and size of the hover...*/
+#mainMenu a {
+  text-decoration: none;
+  color: white;
+}
+
+/*set hoover effect*/
+#mainMenu a:hover{
+  color:F90;
+}
+
+#mainMenu {
+	position: fixed;
+	top:10px;
+	left:25%;
+	margin-left:-254px;
+}
+
+#Jife{
+  display: inline;
+}
+
+#jfet{
+  position: fixed;
+  bottom:35px;
+  margin-center;
+}
+
+table{
+  borders: none;
+
+}
