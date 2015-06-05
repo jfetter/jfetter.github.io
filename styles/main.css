@@ -1,10 +1,17 @@
 
 body {
-  color: #BC5AB3;
+  /*color: #BC5AB3;*/
   font-family: 'Play', sans-serif;
+  background-color:
 }
 
-#bkRnd{
+
+p {
+  color: white;
+  position:fixed;
+  bottom:5%;
+  color: white;
+  margin-left:25%;
 
 }
 
@@ -22,6 +29,7 @@ body {
   height:auto;
   padding: 8px 0px;
   margin: opx;
+  position: center;
 }
 
 /*change position of the text so that it fits into the menu and runs horizontally (inline). also adds padding to the text for the horizontal positionaing */
@@ -39,27 +47,47 @@ body {
 
 /*set hoover effect*/
 #mainMenu a:hover{
-  color:F90;
+  color: purple;
 }
 
 #mainMenu {
 	position: fixed;
 	top:10px;
 	left:25%;
-	margin-left:-254px;
+	margin-left:0%;
 }
 
-#Jife{
-  display: inline;
-}
 
 #jfet{
-  position: fixed;
-  bottom:35px;
-  margin-center;
+  position:fixed;
+  bottom:0%;
+  color: white;
+  margin-left:0%;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 50px;
 }
 
-table{
-  borders: none;
 
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 950px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 950px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -475px;   /* 50% */
+  }
 }
