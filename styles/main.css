@@ -5,14 +5,22 @@ body {
   background-color:
 }
 
+.dark{
+  background-color: black;
+  color: white;
+}
 
-p {
+#caption {
   color: white;
   position:fixed;
-  bottom:5%;
+  bottom:15%;
   color: white;
   margin-left:25%;
+}
 
+footer{
+  bottom:5%;
+  color:black;
 }
 
 /*create a wrapper for the text and define a background color. text-shadow and border raidus applied  */
@@ -60,7 +68,7 @@ p {
 
 #jfet{
   position:fixed;
-  bottom:0%;
+  bottom:10%;
   color: white;
   margin-left:0%;
   padding-top: 25px;
