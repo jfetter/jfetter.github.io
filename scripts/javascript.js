@@ -1,19 +1,19 @@
 $(document).ready(function(){
-    $("#darkBkrnd").click(function(){
-      $("body").addClass("dark");
+    $(".darkBkrnd").click(function(){
+      $("*").addClass(".dark");
     });
-    $("#lightBkrnd").click(function(){
-      $("body").removeClass("dark");
+    $(".lightBkrnd").click(function(){
+      $(".dark").removeClass(".dark");
     });
   });
 
-var captions = ["The mewing kitten video of web developers", "i.e. adorable and always in demand","They call me Jife pop 'cause I be pushin' and popin in arrays like a pie tin full of oil and corn...", "and also 'cause its the first 2 letters of my first and last name" ];
+var captions = ["The mewing kitten video of web developers", "i.e. adorable and always in demand","They call me Jife pop 'cause I be pushin' </br> and popin in arrays like a pie tin full of oil and corn...", "and also 'cause its the first 2 letters of my first and last name" ];
 var captionNumber = 0;
 var captionLength = captions.length -1;
 
-function changeCaption(x)
+var changeCaption = function(increaseBy)
 {
-  captionNumber += x;
+  captionNumber += increaseBy;
   if (captionNumber > captionLength){
     captionNumber =0;
   }
@@ -22,10 +22,8 @@ function changeCaption(x)
   }
 
 document.getElementById("caption").innerHTML = captions[captionNumber];
-
-return false;
 }
 
 function autoRun(){
   setInterval("changeCaption(1)", 5000);
-};
+}
