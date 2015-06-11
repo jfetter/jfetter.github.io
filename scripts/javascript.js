@@ -1,11 +1,16 @@
 $(document).ready(function(){
-    $(".darkBkrnd").click(function(){
-      $("*").addClass(".dark");
-    });
-    $(".lightBkrnd").click(function(){
-      $(".dark").removeClass(".dark");
-    });
-  });
+  $(".dark").click(function(){
+      $("*").addClass("darken")
+      });
+  $(".light").click(function(){
+      $(".darken").removeClass("darken");
+      });
+});
+
+
+
+
+
 
 var captions = ["The mewing kitten video of web developers", "i.e. adorable and always in demand","They call me Jife pop 'cause I be pushin' </br> and popin in arrays like a pie tin full of oil and corn...", "and also 'cause its the first 2 letters of my first and last name" ];
 var captionNumber = 0;
