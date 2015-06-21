@@ -1,4 +1,8 @@
 
+.hidden{
+visibility: hidden;
+}
+
 body {
   color: #BC5AB3;
   font-family: 'Play', sans-serif;
@@ -17,8 +21,9 @@ margin-left: 10px;
 #caption {
   position:fixed;
   bottom:15%;
-  color: white;
+  color: #BC5AB3;
   margin-left:25%;
+  padding: 10x;
 }
 
 footer{
@@ -51,7 +56,7 @@ footer{
 /*remove the text underline and change the color of the text to something remeniscent of the underline color. Also padding uniform in all areas to contorl poistion and size of the hover...*/
 #mainMenu a {
   text-decoration: none;
-  color: white;
+  color: #BC5AB3;
 }
 
 /*set hoover effect*/
