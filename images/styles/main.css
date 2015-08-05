@@ -1,0 +1,83 @@
+
+.hidden{
+visibility: hidden;
+}
+
+body {
+  color: #BC5AB3;
+  font-family: 'Play', sans-serif;
+}
+
+.dark , .light{
+text-decoration: blink;
+margin-left: 10px;
+}
+
+.darken{
+  background-color: black;
+  color: white;
+}
+
+#caption {
+  position:fixed;
+  bottom:15%;
+  color: #BC5AB3;
+  margin-left:25%;
+  padding: 10x;
+}
+
+footer{
+
+}
+
+/*create a wrapper for the text
+  width: auto;
+  height: 35px;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*remove default padding*/
+#mainMenu ul{
+  height:auto;
+  padding: 8px 0px;
+  margin: opx;
+  position: center;
+}
+
+/*change position of the text so that it fits into the menu and runs horizontally (inline). also adds padding to the text for the horizontal positionaing */
+#mainMenu li{
+  display: inline;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/*remove the text underline and change the color of the text to something remeniscent of the underline color. Also padding uniform in all areas to contorl poistion and size of the hover...*/
+#mainMenu a {
+  text-decoration: none;
+  color: #BC5AB3;
+}
+
+/*set hoover effect*/
+#mainMenu a:hover{
+  color: purple;
+}
+
+#mainMenu {
+	position: fixed;
+	top:10px;
+	left:25%;
+	margin-left:0%;
+}
+
+
+#myName{
+  position:fixed;
+  bottom:10%;
+  margin-left:0%;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+}
