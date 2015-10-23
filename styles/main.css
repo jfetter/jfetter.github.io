@@ -5,7 +5,11 @@ visibility: hidden;
 
 body {
   color: #BC5AB3;
-  font-family: 'Play', sans-serif;
+     margin: 0;
+     background: url("../images/purpleOnBlue.png");
+     background-size:100% auto;
+     background-repeat:no-repeat;
+    display: compact;
 }
 
 .dark , .light{
@@ -18,24 +22,22 @@ margin-left: 10px;
   color: white;
 }
 
-#caption {
-  position:fixed;
+#caption, #myName {
+  position:absolute;
   bottom:15%;
   color: #BC5AB3;
-  margin-left:25%;
-  padding: 10x;
+  margin-left: 50%;
+  margin-bottom:15%;
+  padding-bottom: 15%;
 }
 
-footer{
 
-}
-
-/*create a wrapper for the text
-  width: auto;
-  height: 35px;
-  font-size: 1.25em;
-  font-weight: bold;
-  text-align: center;
+#myName{
+  position:absolute;
+  bottom:15%;
+  margin-bottom:15%;
+  padding-bottom: 25%;
+  margin-right: 25%;
 }
 
 /*remove default padding*/
@@ -72,12 +74,11 @@ footer{
 }
 
 
-#myName{
-  position:fixed;
-  bottom:10%;
-  margin-left:0%;
-  padding-top: 25px;
-  padding-right: 50px;
-  padding-bottom: 25px;
-  padding-left: 50px;
+
+
+.nav  {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+    margin-bottom: -10px;
 }
