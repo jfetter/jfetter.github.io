@@ -1,0 +1,101 @@
+.nav-btn{
+	color: pink;
+}
+
+.each-project{
+  border: 2px solid green;
+	margin: 5%;
+  padding: 10%;
+  background-color: black;
+}
+
+.projects-view{
+  border: 2px solid red;
+}
+
+/*speech bubble style from: http://nicolasgallagher.com/pure-css-speech-bubbles */
+.triangle-isosceles {
+  position: relative;
+  padding: 5%;
+  margin: 5em 0 -5em;
+  color: #000;
+  background: #f3961c;
+  border-radius: 10px;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  display: block; 
+  position: absolute;
+  bottom: -1em;
+  left: 5em;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #f3961c transparent;
+}
+
+.triangle-isosceles2 {
+  position: relative;
+  padding: 5%;
+  margin: 5em 0 3em;
+  color: #000;
+  background: #f3961c;
+  border-radius: 10px;
+}
+/* creates triangle */
+.triangle-isosceles2:after {
+  content: "";
+  display: block; 
+  position: absolute;
+  bottom: -1em;
+  left: 5em;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #f3961c transparent;
+}
+
+.container{
+	width: 100%;
+}
+
+.email-phn{
+	/*margin-top: 50vh;*/
+	position: relative;
+	bottom:0;
+}
+
+.res-name{
+	font-family: trebuchet;
+	font-style: small-caps;
+}
+
+.myname, .subtitle{
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+.logo{
+  padding-left: 7%;
+  margin-top: -5px;
+	/*margin: -5%, 7%, -5%, -5%;
+*/	width: 30%;
+}
+
+.title{
+	text-align: center;
+}
+
+.home, body{
+	width: 100%;
+	background-color: #717ccb;
+	color:pink;
+}
+
+.footer{
+	margin-top: 0px;
+	font-size: 14pt;
+}
+

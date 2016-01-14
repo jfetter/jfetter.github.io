@@ -1,0 +1,16 @@
+		 <!-- ng-show="showProjects" -->
+	<div   class="projects-view text-center col-xs-12 ">
+			<div class="row pro-row">
+		<div  class=" each-project col-xs-4" ng-repeat="project in projects">
+
+				<div class="row">
+					<img class="col-xs-12" ng-src={{project.img}} alt="" width="200">
+				</div>
+			<div class="row text-centered">
+				<a class="btn btn-success " ng-href={{project.github}} >Git Hub</a>
+				<a class="btn btn-info " ng-href={{project.url}}>App</a>
+				</div>
+			
+	</div>
+	</div>
+</div>

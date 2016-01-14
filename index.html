@@ -1,102 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="jfet">
 <head>
-        <meta charset="utf-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-                 
-  <title>Jillian Fetter Full Stack Developer</title>
-  <link href='http://fonts.googleapis.com/css?family=Play|Slabo+27px' rel='stylesheet' type='text/css'>
-                    <!-- Latest compiled and minified CSS -->
-                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-                        <!-- Optional theme -->
-                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-                            <!-- fontAwesome-->
-                            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<title>JFetter Web Developer</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="https://bootswatch.com/yeti/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 
-
-<link href="styles/main.css" rel="stylesheet" type="text/css">
-
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 </head>
-<body onLoad="autoRun()" >
+<body ng-controller="navCtrl">
+	<!-- 	<div ui-view> -->
 
-<div class ="container">
-<div class= "row" id="mainMenu">
-  <ul>
-    <li> <a href= "index.html"> Home</a> </li>
- <li><a href="#"></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="http://goo.gl/mYL6JF">Hangman</a></li>
-            <li><a href="http://unfetteredbook.com">Book Site</a></li>
-            <li><a href="https://github.com/jfetter">My Git Hub</a></li>
-          </ul>
-        </li>
-    <li> <a href = "index.html"> <img src= "images/jflogo.png" alt="logo"></a></li>
-    <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blogs <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href ="http://jillience.blogspot.com/">Code To Live By</a></li>
-            <li><a href="http://ntgtech.blogspot.com/">Not To Get Technical</a></li>
-          </ul>
-        </li>
-    <li> <a href="images/resume2015.png">Resume</a></li>
-    
-  </ul>
+<!-- dummy navbar to hold space for fixed nav bar -->
+	<div>
+		<page-top class="row" />
+	</div>
 
-</div> <!-- /container -->
+	<div class="navbar navbar-fixed-top">
+		<nav-bar />
+	</div>
 
 
 
+	<div class="navbar-fixed-bottom">
+		<footer-bar  />
+	</div>
+
+	<div class="container home">
+
+		<div class="row name-job">
+			<div class="col-xs-12 text-centered">
+				<div class="row my-name">
+					<h1 class=" text-center">{{title}}</h1>
+				</div>
+				<div class="row text-center">
+					<div class="col-sm-4"></div>
+					<img class="text-center logo col-sm-2" ng-src="images/jlog1.png" alt="">
+					<div class="col-sm-4"></div>
+				</div>
+
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h3 class="subtitle">{{subtitle}}</h3>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- ng-hide="showProjects || showContact" -->
+	<div class="row">
+		<con-bubbles id="con-bubbles"/>
+	</div>
+
+	<div class="row">
+		<project-view id="project-view"/>
+	</div>
+
+	<!-- ng-show="showContact" -->
+	<div  class="contact-display">
+		<contact-view id="contact-view"/>
+	</div>
 
 
 
 
-  <!-- insert javascript or Jquery to switch up taglines here-->
-            <!--mouse over to replace part 1 with part 2 -->
-<nav class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container-fluid">
-    
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-  </div> <!-- row -->
-<div class="row">
-<div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0"> <h1 id="myName"> Jillian Fetter: </h1> </div>
-<div class="col-sm-6 col-md-5 col-lg-6"><p id="caption">'s skills</p></div>
-<div>
-    </div>
+	<div>
+	 	<resume-view id="resume-view" />
+	</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li ><a class="dark" href="#"> dark background </a></li>
-        <li class=" btn active"><a href="https://twitter.com/JillianFetter">t <span class="sr-only">(current)</span></a></li>
-        <li class="btn active">  <a href="https://www.linkedin.com/profile/view?id=221641351&trk=nav_responsive_tab_profile">in <span class="sr-only">(current)<span class="sr-only">(current)</span></a></li>
-        <li class="btn active"><a href="https://github.com/jfetter">git <span class="sr-only">(current)</span></a></li>
-        <li><a class="light" href="#"> light background </a></li>
-      </ul>
-      
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-</nav>
+</div>
 
-  
-</div> <!-- end container -->
+<!-- </div>  ui-view-->
 
-                            
-<script type='text/javascript' src="scripts/jquery.js"> </script>
-<!-- Latest compiled and minified JavaScript -->
-                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type='text/javascript'  src="scripts/javascript.js"></script>      
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/angular-scroll/angular-scroll.js"></script>
+	<script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+	<script src="app.js"></script>
+	<!-- <script src="templateControllers.js"></script> -->
+	<script src="directives/navbar/nav-bar.js"></script>
+	<script src="directives/contact/contact.js"></script>
+	<script src="directives/project/project.js"></script>
+	<script src="directives/footer-bar/footer-bar.js"></script>
+	<script src="directives/conbubbles/con-bubbles.js"></script>
 </body>
 </html>
-
