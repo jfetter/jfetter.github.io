@@ -5,12 +5,12 @@ angular.module("jfet")
 	$scope.title = "Jillian Fetter"
 
 //// projects ////
-	var thisPage = {name: "dilDaily", url: "http://www.unfetteredbook.com", img: "images/jlogo.png", github:"https://github.com/jfetter/calculator"};
-	var hangman = {name: "hangman", url: "http://www.unfetteredbook.com/hangman/hangman.html", img: "images/hangman.png" , github: "https://github.com/jfetter/CodeHousePrework/tree/master/17HangMan"};
-	var hanoi = {name: "hanoi", url: "http://jfetter.github.io/hanoi/", img: "images/hanoi.png", github: "https://github.com/jfetter/hanoi"};
+	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
+	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
+	var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
 	//var calc = {name: "calc", url: "http://jfetter.github.io/calculator/", img: "images/calc.png", github: "https://github.com/jfetter/calculator"};
-	var dilDaily = {name: "dilDaily", url: "http://www.unfetteredbook.com", img: "images/jlogo.png", github:"https://github.com/jfetter/calculator"};
-	$scope.projects = [hanoi, hangman, thisPage, dilDaily ];
+	var dilDaily = {name: "Daily Dilliegence", url: "https://github.com/jfetter/dildaily.git", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
+	$scope.projects = [unfettered, hangman, poker, dilDaily ];
 
  ///// *** //scrolling// *** /////
   var top = angular.element(document.getElementById('page-top'));
