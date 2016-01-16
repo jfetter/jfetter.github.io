@@ -7,8 +7,8 @@ angular.module("jfet", [ "ui.bootstrap", "ui.router" , 'duScroll'])
 	$urlRouterProvider.otherwise("/");
 
 	$stateProvider
-	.state("home", {url:"/", templateUrl:"index.html", controller: "navCtrl"})
-	// .state("home.resume", {url:"/home/resume", templateUrl: "templates/resume.html", controller: "navCtrl"})
+	.state("home", {url:"/", templateUrl:"templates/home.html", controller: "navCtrl"})
+	//.state("resume", {url:"/resume", templateUrl: "templates/resume.html", controller: "navCtrl"})
 	// .state("home.blog", {url:"/home/resume", templateUrl: "templates/blog.html", controller: "navCtrl"} )
 })
 

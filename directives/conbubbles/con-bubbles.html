@@ -1,21 +1,21 @@
 <div  class="con-bubbles">
 	
-	<div class="row">	
-		<div ng-hide="convo" class="convo1 col-xs-6">
+	<div class="row text-center">	
+		<div ng-show="convo" class="convo1 ">
 		<div class="triangle-isosceles">
 			<span>{{talkingPoints.comment}}</span>
 		</div>
 	</div>
-			<div ng-show="convo" class="convo2 col-xs-6">
+			<div ng-hide="convo" class="convo2 ">
 		<div  class="triangle-isosceles2">
 			<span>{{talkingPoints.response}}</span>
 		</div>
 	</div>
 </div>
 
-	<div class="row">
+	<div class="row-fluid">
 		<div >
-		<img class="col-xs-12 col-centered" ng-src="images/sil-talk.png" alt="">
+		<img class="col-xs-8 col-xs-offset-4 col-centered" ng-src="images/sil-talk.png" alt="">
 		</div>
 	</div>
 </div>

@@ -10,70 +10,13 @@
 
 	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 </head>
-<body ng-controller="navCtrl">
-	<!-- 	<div ui-view> -->
-
-<!-- dummy navbar to hold space for fixed nav bar -->
-	<div>
-		<page-top class="row" />
-	</div>
-
-	<div class="navbar navbar-fixed-top">
-		<nav-bar />
-	</div>
+<body>
 
 
 
-	<div class="navbar-fixed-bottom">
-		<footer-bar  />
-	</div>
-
-	<div class="container home">
-
-		<div class="row name-job">
-			<div class="col-xs-12 text-centered">
-				<div class="row my-name">
-					<h1 class=" text-center">{{title}}</h1>
-				</div>
-				<div class="row text-center">
-					<div class="col-sm-4"></div>
-					<img class="text-center logo col-sm-2" ng-src="images/jlog1.png" alt="">
-					<div class="col-sm-4"></div>
-				</div>
-
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<h3 class="subtitle">{{subtitle}}</h3>
-				</div>
-			</div>
-			
-		</div>
-	</div>
-
-	<!-- ng-hide="showProjects || showContact" -->
-	<div class="row">
-		<con-bubbles id="con-bubbles"/>
-	</div>
-
-	<div class="row">
-		<project-view id="project-view"/>
-	</div>
-
-	<!-- ng-show="showContact" -->
-	<div  class="contact-display">
-		<contact-view id="contact-view"/>
-	</div>
+		<div ui-view />
 
 
-
-
-	<div>
-	 	<resume-view id="resume-view" />
-	</div>
-
-</div>
-
-<!-- </div>  ui-view-->
 
 	<script src="bower_components/angular/angular.js"></script>
 	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>

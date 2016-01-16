@@ -9,28 +9,75 @@
   background-color: black;
 }
 
-.pic-container{
-  padding: 5%;
+.outter{
+  height: 100vw;
 }
 
-.round{
+.btn{
+  border-radius: 10%;
+}
+
+.wrapper {  
+        margin-top: 5%; 
+        text-align: center; 
+        width: 100%;
+        padding: 5%;
+    }
+    .scrolls { 
+        overflow-x: scroll;
+        /*overflow-y: hidden;*/
+        height: 100%;
+
+        white-space:nowrap
+    } 
+    .proj { 
+        background-color:#a4a4c1;
+        border-radius: 5%;
+        padding: 5%;
+        margin: 5%;
+        width: 25vw;
+        cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    }
+    
+ .pro-butts{
+  
+
+  padding-top: 2%;
+  width: 15vw;
+ }
+ .pro-pic{
+  border-radius: 5%;
+  width: 15vw;
+ }
+
+.circle-image{
   border-radius: 50%;
 }
 
-.projects-view{
-  border: 2px solid red;
+.convo1{
+  margin-left: 10vw;
+}
+
+.convo2{
+  margin-left: 30vw;
 }
 
 /*speech bubble style from: http://nicolasgallagher.com/pure-css-speech-bubbles */
-.triangle-isosceles {
-  position: relative;
-  padding: 5%;
-  margin: 5em 0 -5em;
-  color: #000;
-  background: #f3961c;
-  border-radius: 10px;
-}
 
+/* creates triangle */
+.triangle-isosceles2:after {
+  content: "";
+  display: block; 
+  position: absolute;
+  bottom: -1em;
+  left: 45em;
+  width: 0;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #f3961c transparent;
+}
 /* creates triangle */
 .triangle-isosceles:after {
   content: "";
@@ -44,7 +91,7 @@
   border-color: #f3961c transparent;
 }
 
-.triangle-isosceles2 {
+.triangle-isosceles {
   position: relative;
   padding: 5%;
   margin: 5em 0 3em;
@@ -52,17 +99,14 @@
   background: #f3961c;
   border-radius: 10px;
 }
-/* creates triangle */
-.triangle-isosceles2:after {
-  content: "";
-  display: block; 
-  position: absolute;
-  bottom: -1em;
-  left: 5em;
-  width: 0;
-  border-width: 15px 15px 0;
-  border-style: solid;
-  border-color: #f3961c transparent;
+
+.triangle-isosceles2 {
+  position: relative;
+  padding: 5%;
+  margin: 5em 0 -5em;
+  color: #000;
+  background: #f3961c;
+  border-radius: 10px;
 }
 
 .container{
@@ -86,11 +130,12 @@
 }
 
 .logo{
-  padding-left: 7%;
-  margin-top: -5px;
+/*  padding-left: 7%;
+  margin-top: -5px*/;
 	/*margin: -5%, 7%, -5%, -5%;
-*/	width: 30%;
+*/	width: 50%;
 }
+
 
 .title{
 	text-align: center;
@@ -105,5 +150,13 @@
 .footer{
 	margin-top: 0px;
 	font-size: 14pt;
+}
+
+.sil-talk{
+  width: 50%;
+}
+
+.about-me{
+  padding-top:5vh;
 }
 
