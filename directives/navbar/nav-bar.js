@@ -9,7 +9,7 @@ angular.module("jfet")
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
 	var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
 	//var calc = {name: "calc", url: "http://jfetter.github.io/calculator/", img: "images/calc.png", github: "https://github.com/jfetter/calculator"};
-	var dilDaily = {name: "Daily Dilliegence", url: "https://github.com/jfetter/dildaily.git", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
+	var dilDaily = {name: "Dilliegence", url: "https://fast-ravine-7212.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
 	$scope.projects = [unfettered, hangman, poker, dilDaily ];
 
  ///// *** //scrolling// *** /////
