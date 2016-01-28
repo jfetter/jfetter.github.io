@@ -37,6 +37,13 @@ font-family: 'Rum Raisin', sans-serif;
   border-radius: 10%;
 }
 
+/*--------
+
+ PROJECTS
+
+-----------*/
+
+
 .wrapper {  
         margin-top: 5%; 
         text-align: center; 
@@ -51,26 +58,47 @@ font-family: 'Rum Raisin', sans-serif;
         white-space:nowrap
     } 
     .proj { 
-        background-color:#a4a4c1;
+
         border-radius: 5%;
+        border: 2px solid white;
         padding: 5%;
         margin: 5%;
-        width: 25vw;
+        margin-top: 20%;
+        margin-bottom:20%;
+        width: 45vw;
         cursor: pointer;
     display:inline-block;
     *display:inline;
     }
+
+.proj:hover{
+  min-width: 64vw;
+  min-height: 60vh;
+ }
+
+  .pro-pic{
+  border-radius: 3%;
+  width: 30vw;
+  min-height: 40vh;
+ }
+
+ .pro-pic:hover{
+  border-radius: 5%;
+  width: 50vw;
+  min-height: 55vh;
+ }
     
  .pro-butts{
-  
-
+  margin: 0 auto;
   padding-top: 2%;
   width: 15vw;
  }
- .pro-pic{
-  border-radius: 5%;
-  width: 15vw;
- }
+
+.app-btn{
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
 
 .circle-image{
   border-radius: 50%;
