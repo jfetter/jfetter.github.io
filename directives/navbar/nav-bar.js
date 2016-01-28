@@ -25,10 +25,10 @@ angular.module("jfet")
    		$scope.toContactView = function (){
   	$document.scrollToElementAnimated(contactView)
   } 
-  var resumeView = angular.element(document.getElementById('resume-view'));
-  		$scope.toResumeView = function (){
-  	$document.scrollToElementAnimated(resumeView)
-  } 
+  // var resumeView = angular.element(document.getElementById('resume-view'));
+  // 		$scope.toResumeView = function (){
+  // 	$document.scrollToElementAnimated(resumeView)
+  // } 
   var projectView = angular.element(document.getElementById('project-view'));
  		$scope.toProjectView = function (){
 		console.log("in projectView")
