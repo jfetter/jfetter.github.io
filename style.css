@@ -2,6 +2,10 @@ body{
 font-family: 'Rum Raisin', sans-serif;
 }
 
+.convoImg{
+  max-width: 50vw;
+}
+
 #closeModal {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
@@ -122,41 +126,6 @@ font-family: 'Rum Raisin', sans-serif;
     border-style: solid;
     border-color: #f3961c transparent;
 }
-
-/*speech bubble style from: http://nicolasgallagher.com/pure-css-speech-bubbles */
-
-/* creates triangle */
-
-/* creates triangle */
-/*.triangle-isosceles:after {
-  content: "";
-  display: block; 
-  position: absolute;
-  bottom: -1em;
-  left: 5em;
-  width: 0;
-  border-width: 15px 15px 0;
-  border-style: solid;
-  border-color: #f3961c transparent;
-}*/
-
-/*.triangle-isosceles {
-  position: relative;
-  padding: 5%;
-  margin: 5em 0 3em;
-  color: #000;
-  background: #f3961c;
-  border-radius: 10px;
-}*/
-
-/*.triangle-isosceles2 {
-  position: relative;
-  padding: 5%;
-  margin: 5em 0 -5em;
-  color: #000;
-  background: #f3961c;
-  border-radius: 10px;
-}*/
 
 .container{
 	width: 100%;
