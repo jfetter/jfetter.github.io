@@ -7,10 +7,10 @@ angular.module("jfet")
 //// projects ////
 	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
-	var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
-	//var calc = {name: "calc", url: "http://jfetter.github.io/calculator/", img: "images/calc.png", github: "https://github.com/jfetter/calculator"};
+	//var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
+	var dirtyDealer = {name: "Dirty Dealer", url: "https://dry-dawn-94066.herokuapp.com/login", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
 	var dilDaily = {name: "Dilliegence", url: "https://fast-ravine-7212.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
-	$scope.projects = [unfettered, hangman, poker, dilDaily ];
+	$scope.projects = [unfettered, hangman, dirtyDealer, dilDaily ];
 
  ///// *** //scrolling// *** /////
   var top = angular.element(document.getElementById('page-top'));

@@ -1,5 +1,10 @@
+body{
+font-family: 'Rum Raisin', sans-serif;
+}
+
 .nav-btn{
 	color: pink;
+  font-size: 22px;
 }
 
 .each-project{
@@ -57,29 +62,62 @@
 }
 
 .convo1{
-  margin-left: 10vw;
+  margin-right: 50vw;
+  margin-left: 5vw;
+/*  padding-right: 5px;*/
 }
 
 .convo2{
-  margin-left: 30vw;
+  margin-left: 60vw;
+  margin-right: 5vw;
+ /* padding-left: 5px;*/
+}
+
+.convo2, .convo1{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f3961c;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  width: 37%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* creates triangle on bubble*/
+.convo1:after {
+    margin-left: 30vw;
+    margin-right: 5vw;
+    margin-bottom: -30px;
+    margin-top: 9px;
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #f3961c transparent;
+}
+
+.convo2:after {
+    margin-left: 2vw;
+    margin-right: 5vw;
+    margin-bottom: -30px;
+    margin-top: 9px;
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #f3961c transparent;
 }
 
 /*speech bubble style from: http://nicolasgallagher.com/pure-css-speech-bubbles */
 
 /* creates triangle */
-.triangle-isosceles2:after {
-  content: "";
-  display: block; 
-  position: absolute;
-  bottom: -1em;
-  left: 45em;
-  width: 0;
-  border-width: 15px 15px 0;
-  border-style: solid;
-  border-color: #f3961c transparent;
-}
+
 /* creates triangle */
-.triangle-isosceles:after {
+/*.triangle-isosceles:after {
   content: "";
   display: block; 
   position: absolute;
@@ -89,25 +127,25 @@
   border-width: 15px 15px 0;
   border-style: solid;
   border-color: #f3961c transparent;
-}
+}*/
 
-.triangle-isosceles {
+/*.triangle-isosceles {
   position: relative;
   padding: 5%;
   margin: 5em 0 3em;
   color: #000;
   background: #f3961c;
   border-radius: 10px;
-}
+}*/
 
-.triangle-isosceles2 {
+/*.triangle-isosceles2 {
   position: relative;
   padding: 5%;
   margin: 5em 0 -5em;
   color: #000;
   background: #f3961c;
   border-radius: 10px;
-}
+}*/
 
 .container{
 	width: 100%;
@@ -149,7 +187,7 @@
 
 .footer{
 	margin-top: 0px;
-	font-size: 14pt;
+	
 }
 
 .sil-talk{
@@ -160,3 +198,20 @@
   padding-top:5vh;
 }
 
+#my_email, .fa {
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.fa{
+   font-size: 28px;
+}
+
+#phoneNum{
+  font-size: 20px;
+}
+
+#my_email:hover{
+  text-decoration: none;
+}
