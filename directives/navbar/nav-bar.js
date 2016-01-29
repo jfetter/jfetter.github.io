@@ -8,7 +8,7 @@ angular.module("jfet")
 	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
 	//var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
-	var dirtyDealer = {name: "Dirty Dealer", url: "https://dry-dawn-94066.herokuapp.com/login", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
+	var dirtyDealer = {name: "Dirty Dealer", url: "https://dry-dawn-94066.herokuapp.com/", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
 	var dilDaily = {name: "Dilliegence", url: "https://fast-ravine-7212.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
 	$scope.projects = [unfettered, hangman, dirtyDealer, dilDaily ];
 
@@ -19,11 +19,11 @@ angular.module("jfet")
   }
   var conBubbles = angular.element(document.getElementById('con-bubbles'));
  	   	$scope.toConBubbles = function (){
-  	$document.scrollToElementAnimated(conBubbles)
+  	$document.scrollToElementAnimated(conBubbles, 75)
   } 
  	var contactView = angular.element(document.getElementById('contact-view'));
    		$scope.toContactView = function (){
-  	$document.scrollToElementAnimated(contactView)
+  	$document.scrollToElementAnimated(contactView, 100)
   } 
   // var resumeView = angular.element(document.getElementById('resume-view'));
   // 		$scope.toResumeView = function (){
@@ -35,7 +35,7 @@ angular.module("jfet")
   	$document.scrollToElementAnimated(projectView)
   } 
 // scroll to convo after load
-$document.scrollTop(1500, 5000).then(function() {
+$document.scrollTop(950, 4000).then(function() {
     console.log('You just scrolled to convo bubbles!');
   });
 
@@ -44,9 +44,11 @@ $document.scrollTop(1500, 5000).then(function() {
 	$scope.talkingPoints = {comment: "Have you seen what she can do with Angular", response: "OMG yes! This site is actually done in Angular"};
 	var conversation = [
 	//{comment: "have you seen what she can do with angular", response: "yeah it's amazing"}, 
-	{comment: "She puts together a mean mean stack too", response: "Her app daily dilligence uses MEAN stack"},
-	{comment: "And have you seen her witn nunchucks", response: "You know she actually trained with the ninja turtles one summer"},
-	{comment: "She sucks at DDR though", response: "I know, white girl CANNOT dance"}
+	{comment: "She puts together a mean MEAN stack!", response: "Her app daily dilligence uses MEAN stack"},
+	{comment: "And have you seen her with nunchucks", response: "You know she actually trained with the ninja turtles one summer"},
+	{comment: "How did she get real time functionality to fire off her game app, Dirty Deals?", response: "Funny you mention fire. She used firebase and angular on that."},
+	{comment: "I love to hangout and play her hangman game", response: "That app was built with good ol' fashioned jQuery."},
+	{comment: "She sucks at DDR though", response: "I know! Homegirl CANNOT dance"}
 	]
 
 	$scope.convo = true;
