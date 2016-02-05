@@ -3,16 +3,18 @@
 			
 </div> -->
 
-  <div class="scrolls">
-		<div  class="proj row" ng-repeat="project in projects">
-				<div class=" col-sm-12 text-center">
-					<img class="pro-pic" ng-src={{project.img}} alt="">
+  	<p class="click-proj" >click image to view app</p>
+  <div  class="scrolls" ng-mouseover="scrollRight()" ng-mouseleave="stopScroll()">
+		<div  id="anchor{{project}}" class="proj row" ng-repeat="project in projects">
+			<div   >
+				<div class=" col-sm-12 text-center" >
+					<a  target="_blank" href={{project.url}}><img class="pro-pic" ng-src={{project.img}} alt=""></a>
 			<div class="pro-butts">
 				</div>
 				<a class="git-btn btn btn-success" ng-href={{project.github}} target="_blank" >Git Hub</a>
-				<a class="app-btn btn btn-info " ng-href={{project.url}} target="_blank" >App</a>
+				<!-- <a class="app-btn btn btn-info " ng-href={{project.url}} target="_blank" >App</a> -->
 				</div>
-			
+			</div>
 	</div>
 
   </div>
