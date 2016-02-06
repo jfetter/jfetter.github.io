@@ -13,16 +13,20 @@ font-size: 20px;
 
 ______________*/
 
-.myname, .subtitle{
+ .subtitle{
+  font-size: 60px;
   margin-bottom: -5px;
   margin-top: -5px;
+}
+.my-name{
+ font-size: 95px;
 }
 
 .logo{
 /*  padding-left: 7%;
   margin-top: -5px*/;
   /*margin: -5%, 7%, -5%, -5%;
-*/  width: 50%;
+*/  width: 85%;
 }
 
 
@@ -134,6 +138,7 @@ ______________*/
 }
 
 .aboutMe { 
+  font-size: 45px;
   text-align: justify;
   letter-spacing: 1px;
   border-radius: 10px;
@@ -175,6 +180,7 @@ ______________*/
 }
 
 .convo2, .convo1{
+  font-size: 45px;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -224,13 +230,13 @@ ______________*/
 
 .nav-btn{
   color: pink;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 .nav-btn:hover{
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .container{
@@ -256,7 +262,7 @@ ______________*/
 
 #my_email, .fa {
   color: white;
-  font-size: 22px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
 
@@ -265,17 +271,17 @@ ______________*/
 }
 
 #phoneNum{
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .fa:hover{
   text-decoration: none;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 #my_email:hover{
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 /* ________
