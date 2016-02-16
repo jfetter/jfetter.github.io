@@ -6,7 +6,7 @@ angular.module("jfet")
 
 //// projects ////
 	var dirtyDealer = {name: "Dirty Dealer", url: "https://mysterious-temple-85764.herokuapp.com/game", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
-	var dilDaily = {name: "Dilliegence", url: "https://shielded-citadel-26052.herokuapp.com/#/home", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
+	var dilDaily = {name: "Get To Work!", url: "https://ancient-lake-82311.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
 	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
 	//var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
@@ -63,7 +63,7 @@ $scope.stopScroll = function(){
 	{comment: "I think she channeld that fiestiness into her hangman game", response: "That app was built with good ol' fashioned jQuery."},
 	{comment: "Did you know she made a multiplayer real time card game", response: "yeah, Dirty Dealer, its like Cards Against humanity but even better"},
 	{comment: "She sucks at DDR though", response: "I know! Homegirl CANNOT dance"},
-	{comment: "But she does put together a mean MEAN stack app!", response: "I know what you MEAN. Her app, dilligence is awesome!"}
+	{comment: "But she does put together a mean MEAN stack app!", response: "I know what you MEAN. Her app, 'Get To Work' is awesome!"}
 	]
 
 	$scope.convo = true;
