@@ -18,16 +18,16 @@ angular.module("jfet")
   }
   var conBubbles = angular.element(document.getElementById('con-bubbles'));
  	   	$scope.toConBubbles = function (){
-  	$document.scrollToElementAnimated(conBubbles, 100)
+  	$document.scrollToElementAnimated(conBubbles, 50)
   } 
  	var contactView = angular.element(document.getElementById('contact-view'));
    		$scope.toContactView = function (){
-  	$document.scrollToElementAnimated(contactView)
+  	$document.scrollToElementAnimated(contactView, -200)
   }  
   var projectView = angular.element(document.getElementById('project-view'));
  		$scope.toProjectView = function (){
 		console.log("in projectView")
-  	$document.scrollToElementAnimated(projectView, 100)
+  	$document.scrollToElementAnimated(projectView)
   } 
 
   $scope.scrollOnce = false;
@@ -36,10 +36,9 @@ angular.module("jfet")
   		return; 
   	}
   		var w = $(".scrolls").first().width();
-  		console.log(w);
   		var width = ($scope.projects.length * w) - 100
-  		$(".scrolls").animate({scrollLeft: width}, 10000,'linear');
-  		$(".scrolls").animate({scrollLeft: 0}, 10000,'linear');
+  		$(".scrolls").animate({scrollLeft: width}, 500,'linear');
+  		$(".scrolls").animate({scrollLeft: 0}, 500,'linear');
  			$scope.scrollOnce = true;
   		
  }

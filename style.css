@@ -1,6 +1,6 @@
 body{
 font-family: 'Rum Raisin', sans-serif;
-font-size: 20px;
+font-size: 3vw;
 }
 
 .outter{
@@ -14,21 +14,19 @@ font-size: 20px;
 ______________*/
 
  .subtitle{
-  font-size: 60px;
+  font-size: 3vw;
   margin-bottom: -5px;
   margin-top: -5px;
 }
 .my-name{
- font-size: 95px;
+  margin-top: -7%;
+ font-size: 5vw;
 }
 
 .logo{
-/*  padding-left: 7%;
-  margin-top: -5px*/;
-  /*margin: -5%, 7%, -5%, -5%;
-*/  width: 85%;
+  margin-top: -5%;
+  width: 65%;
 }
-
 
 .title{
   text-align: center;
@@ -140,13 +138,14 @@ ______________*/
 }
 
 .aboutMe { 
-  font-size: 45px;
-  text-align: justify;
+  font-size: 1em;
+  color: aqua;
+  /*text-align: justify;*/
   letter-spacing: 1px;
   border-radius: 10px;
   border: 5px solid white;
   padding: 5%;
-  margin-left: -15%;
+  margin-left: -25%;
   margin-top: 50%;
   /*margin-bottom:20%;*/
   width: 60vw;
@@ -163,8 +162,12 @@ ______________*/
 
 
 .convoImg{
-  width: 75vw;
+  width: 55vw;
 /*  max-width: 75vw;*/
+}
+
+.convo-band{
+  margin-bottom: -5%;
 }
 
 .convo1{
@@ -181,7 +184,7 @@ ______________*/
 }
 
 .convo2, .convo1{
-  font-size: 45px;
+  font-size: 1em;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -210,7 +213,7 @@ ______________*/
 }
 
 .convo2:after {
-  margin-left: 2vw;
+  margin-left: 5vw;
   margin-right: 5vw;
   margin-bottom: -30px;
   margin-top: 9px;
@@ -229,15 +232,16 @@ NAV BAR AND FOOTER
 
 ______________*/
 
+
 .nav-btn{
   color: pink;
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 .nav-btn:hover{
   text-decoration: none;
   color: white;
-  font-size: 50px;
+  font-size: 3.5vw;
 }
 
 .container{
