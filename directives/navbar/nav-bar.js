@@ -5,7 +5,7 @@ angular.module("jfet")
 	$scope.title = "Jillian Fetter"
 
 //// projects ////
-	var dirtyDealer = {name: "Dirty Dealer", url: "https://mysterious-temple-85764.herokuapp.com/game", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
+	var dirtyDealer = {name: "Dirty Dealer", url: "https://dirtydeals.herokuapp.com", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
 	var dilDaily = {name: "Get To Work!", url: "https://ancient-lake-82311.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
 	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
