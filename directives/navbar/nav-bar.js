@@ -5,8 +5,8 @@ angular.module("jfet")
 	$scope.title = "Jillian Fetter"
 
 //// projects ////
-	var dirtyDealer = {name: "Dirty Dealer", url: "https://dirtydeals.herokuapp.com", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/CAH.git"};
-	var dilDaily = {name: "Get To Work!", url: "https://ancient-lake-82311.herokuapp.com/", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
+	var dirtyDealer = {name: "Dirty Dealer", url: "https://dirtydeals.herokuapp.com", img: "images/dirtydealer.jpg", github: "https://github.com/rachelrobynslater/cards_against_humanity_clone.git"};
+	var dilDaily = {name: "Get To Work!", url: "https://dry-plateau-39251.herokuapp.com/#/home", img: "images/dildaily.jpg", github:"https://github.com/jfetter/dildaily.git"};
 	var unfettered = {name: "unfettered", url: "http://www.unfetteredbook.com", img: "images/unfettered.jpg", github:"https://github.com/jfetter/unFetteredBook.git"};
 	var hangman = {name: "hangman", url: "http://jfetter.github.io/accusor", img: "images/hangman.jpg" , github: "https://github.com/jfetter/accusor.git"};
 	//var poker = {name: "poker", url: "https://dry-mesa-2798.herokuapp.com/", img: "images/poker.jpg", github: "https://github.com/jfetter/sog.git"};
