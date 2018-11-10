@@ -1,9 +1,13 @@
-body{
-font-family: 'Rum Raisin', sans-serif;
-font-size: 3vw;
+body {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 3vw;
 }
 
-.outter{
+.fs07em {
+  font-size: 0.7em;
+}
+
+.outter {
   height: 80vw;
 }
 
@@ -13,95 +17,94 @@ font-size: 3vw;
 
 ______________*/
 
- .subtitle{
+.subtitle {
   font-size: 3vw;
   margin-bottom: -5px;
   margin-top: -5px;
 }
-.my-name{
+.my-name {
   margin-top: -7%;
- font-size: 5vw;
+  font-size: 5vw;
 }
 
-.logo{
+.logo {
   margin-top: -5%;
   width: 65%;
 }
 
-.title{
+.title {
   text-align: center;
 }
 
-.home, body{
+.home,
+body {
   width: 100%;
   background-color: #717ccb;
-  color:pink;
+  color: pink;
 }
-
 
 /*--------
 
  PROJECTS
 
 -----------*/
-.hide-for-scroll{
+.hide-for-scroll {
   display: none;
 }
 
-.click-proj{
+.click-proj {
   font-size: 30px;
   color: #25c3fc;
 }
 
-.wrapper {  
-  margin-top: 20%; 
-  text-align: center; 
+.wrapper {
+  margin-top: 20%;
+  text-align: center;
   width: 100%;
   padding: 5%;
-  }
-.scrolls { 
+}
+.scrolls {
   overflow-x: scroll;
   /*overflow-y: hidden;*/
   height: 100%;
 
-  white-space:nowrap
-  } 
-.proj { 
-
+  white-space: nowrap;
+}
+.proj {
   border-radius: 5%;
   border: 2px solid white;
   padding: 5%;
   margin: 5%;
-/*  margin-top: 20%;
+  /*  margin-top: 20%;
   margin-bottom:20%;*/
   width: 45vw;
   cursor: pointer;
-  display:inline-block;
-  *display:inline;
-  }
+  display: inline-block;
+  *display: inline;
+}
 
-.proj:hover{
+.proj:hover {
   min-width: 64vw;
   min-height: 60vh;
- }
+}
 
-  .pro-pic{
+.pro-pic {
   border-radius: 3%;
   width: 30vw;
   height: 30vw;
- }
+}
 
- .pro-pic:hover{
+.pro-pic:hover {
   border-radius: 5%;
   width: 40vw;
   min-height: 35vw;
- }
-    
+}
+
 .git-btn {
-    border-radius: 10px;
-    margin: 5%;
-    padding-top: 2%;
-    width: 90%;
+  border-radius: 10px;
+  margin: 5%;
+  padding-top: 2%;
+  width: 90%;
 }
 
 /*.app-btn{
@@ -109,19 +112,16 @@ ______________*/
   padding-right: 18%;
 }*/
 
-
-
-
 /* ___________
 
 ABOUT ME
 
 ______________*/
 
-.contact-row{
+.contact-row {
   margin-bottom: 20%;
-  display:inline-block;
-  *display:inline;
+  display: inline-block;
+  *display: inline;
   width: 100%;
 }
 
@@ -129,15 +129,15 @@ ______________*/
   max-width: 45vw;
 }*/
 
-.circle-image{
-  margin-top:50%;
-  border:5px solid white;
+.circle-image {
+  margin-top: 50%;
+  border: 5px solid white;
   margin-left: -5%;
   max-width: 40vw;
   border-radius: 50%;
 }
 
-.aboutMe { 
+.aboutMe {
   font-size: 1em;
   color: aqua;
   /*text-align: justify;*/
@@ -150,8 +150,7 @@ ______________*/
   /*margin-bottom:20%;*/
   width: 60vw;
   cursor: pointer;
-  }
-
+}
 
 /* ___________
 
@@ -159,31 +158,30 @@ CONVO BUBBLES
 
 ______________*/
 
-
-
-.convoImg{
+.convoImg {
   width: 55vw;
-/*  max-width: 75vw;*/
+  /*  max-width: 75vw;*/
 }
 
-.convo-band{
+.convo-band {
   margin-bottom: -5%;
 }
 
-.convo1{
+.convo1 {
   padding-right: 50vw;
   margin-left: 5vw;
- padding-left: 10vw;
+  padding-left: 10vw;
 }
 
-.convo2{
+.convo2 {
   padding-right: 10vw;
   margin-left: 60vw;
   margin-right: 5vw;
- /* padding-left: 5px;*/
+  /* padding-left: 5px;*/
 }
 
-.convo2, .convo1{
+.convo2,
+.convo1 {
   font-size: 1em;
   color: white;
   padding-top: 20px;
@@ -195,8 +193,6 @@ ______________*/
   padding-right: 15px;
   padding-left: 15px;
 }
-
-
 
 /* creates triangle on bubble*/
 .convo1:after {
@@ -225,66 +221,63 @@ ______________*/
   border-color: #f3961c transparent;
 }
 
-
 /* ___________
 
 NAV BAR AND FOOTER
 
 ______________*/
 
-
-.nav-btn{
+.nav-btn {
   color: pink;
   font-size: 3vw;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   text-decoration: none;
   color: white;
   font-size: 3.5vw;
 }
 
-.container{
-	width: 100%;
+.container {
+  width: 100%;
 }
 
-.email-phn{
-	/*margin-top: 50vh;*/
-	position: relative;
-	bottom:0;
+.email-phn {
+  /*margin-top: 50vh;*/
+  position: relative;
+  bottom: 0;
 }
 
-.res-name{
-	font-family: trebuchet;
-	font-style: small-caps;
+.res-name {
+  font-family: trebuchet;
+  font-style: small-caps;
 }
 
-
-.footer{
-	margin-top: 0px;
-	
+.footer {
+  margin-top: 0px;
 }
 
-#my_email, .fa {
+#my_email,
+.fa {
   color: white;
   font-size: 40px;
   letter-spacing: 1px;
 }
 
-.fa{
-   font-size: 40px;
+.fa {
+  font-size: 40px;
 }
 
-#phoneNum{
+#phoneNum {
   font-size: 35px;
 }
 
-.fa:hover{
+.fa:hover {
   text-decoration: none;
   font-size: 50px;
 }
 
-#my_email:hover{
+#my_email:hover {
   text-decoration: none;
   font-size: 50px;
 }
@@ -296,7 +289,7 @@ RESUME
 __________*/
 
 #closeModal {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 20px;
   color: black;
   max-width: 100%;
